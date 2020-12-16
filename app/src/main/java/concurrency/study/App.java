@@ -3,7 +3,9 @@
  */
 package concurrency.study;
 
+import concurrency.study.collection.CollectionDemo;
 import concurrency.study.semaphore.SemaphoreDemo;
+import concurrency.study.threadPool.ThreadPoolDemo;
 
 public class App {
 
@@ -11,5 +13,11 @@ public class App {
 
         // semaphore demo
         new SemaphoreDemo().run();
+
+        // thread pool
+        new ThreadPoolDemo().run();
+
+        // Collections
+        new CollectionDemo().run();
     }
 }
